@@ -60,7 +60,7 @@
 
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
 
-        "value": "",
+        "value": "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-BOT@cluster0.c51o3a9.mongodb.net/?retryWrites=true&w=majority",
 
         "required": true
 
@@ -101,7 +101,7 @@
 
         "description": "Your API key from console.nexgenbots.xyz",
 
-        "value": "",
+        "value": "30DxNexGenBots5f5b72",
 
         "required": true
 
