@@ -76,15 +76,6 @@
 
       },
 
-      "STRING_SESSION": {
-
-        "description": "A Pyrogram v2 String Session from Replit.",
-
-        "value": "",
-
-        "required": true
-
-      },
 
       "HEROKU_API_KEY": {
 
