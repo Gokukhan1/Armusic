@@ -28,6 +28,7 @@ from AviaxMusic.utils.formatters import get_readable_time
 from AviaxMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
+from AviaxMusic import db, rules_collection
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -275,3 +276,4 @@ async def welcome(client, message: Message):
         except Exception as ex:
 
             print(ex)
+
