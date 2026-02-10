@@ -28,7 +28,7 @@ async def set_rules(client, message):
 @app.on_message(filters.command("rules") & filters.group)
 async def rules_button(client, message):
     chat_id = message.chat.id
-    url = f"https://t.me/{bot_username}?start=rules_{chat_id}"
+    url = f"https://t.me/{app.username}?start=rules_{chat_id}"
     keyboard = InlineKeyboardMarkup(
         [[InlineKeyboardButton("Check Rules", url=url)]]
     )
